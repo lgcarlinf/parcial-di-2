@@ -2,7 +2,7 @@ const INFO = [
   {
     icon: '🕐',
     title: 'Horarios',
-    content: ['Lun – Jue: 12:00 – 22:00', 'Vie – Sáb: 12:00 – 23:30', 'Domingo: 12:00 – 21:00', '⛔ Cerrado los martes'],
+    content: ['Lun – Jue: 12:00 – 22:00', 'Vie – Sáb: 12:00 – 23:30', 'Domingo: 12:00 – 21:00'],
   },
   {
     icon: '📍',
