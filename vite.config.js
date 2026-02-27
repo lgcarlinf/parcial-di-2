@@ -7,5 +7,5 @@ import react from '@vitejs/plugin-react-swc'
 // Si usas un dominio propio o tuusuario.github.io directamente, deja base: '/'
 export default defineConfig({
   plugins: [react()],
-  base: '/parcial-di-2/',
+  base: '/',
 })
