@@ -35,7 +35,7 @@
     </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
-    <script type="module" crossorigin src="/parcial-di-2/assets/index-BGWFxXFu.js"></script>
+    <script type="module" crossorigin src="/parcial-di-2/assets/index-BAUGQM2L.js"></script>
     <link rel="stylesheet" crossorigin href="/parcial-di-2/assets/index-DZUGuKzE.css">
   </head>
   <body>
@@ -49,9 +49,10 @@
             return q
           }, {})
           if (params.p !== undefined) {
+            var base = l.pathname.replace(/\/$/, '')
             window.history.replaceState(
               null, null,
-              '/' + params.p + (params.q ? '?' + params.q : '') + l.hash
+              base + '/' + params.p + (params.q ? '?' + params.q : '') + l.hash
             )
           }
         }
