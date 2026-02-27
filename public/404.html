@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirigiendo...</title>
+    <script>
+      // Truco SPA para GitHub Pages:
+      // Convierte la ruta en un query param y redirige a index.html
+      var l = window.location
+      l.replace(
+        l.protocol + '//' + l.host + l.pathname.split('/').slice(0, 1).join('/') +
+        '/?p=' + l.pathname.slice(1).replace(/&/g, '~and~') +
+        (l.search ? '&q=' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+        l.hash
+      )
+    </script>
+  </head>
+  <body></body>
+</html>
