@@ -47,9 +47,10 @@
             return q
           }, {})
           if (params.p !== undefined) {
+            var base = l.pathname.replace(/\/$/, '')
             window.history.replaceState(
               null, null,
-              '/' + params.p + (params.q ? '?' + params.q : '') + l.hash
+              base + '/' + params.p + (params.q ? '?' + params.q : '') + l.hash
             )
           }
         }

@@ -7,11 +7,14 @@ import Landing from './pages/Landing.jsx'
 import Dashboard from './pages/Dashboard.jsx'
 
 export default function App() {
+
+  const basePath = import.meta.env.BASE_URL  || "/parcial-di-2/"
+
   return (
     <DarkModeProvider>
       <SettingsProvider>
       <ReservationsProvider>
-        <BrowserRouter>
+        <BrowserRouter basename={basePath}>
           <Routes>
             <Route path="/" element={<LandingLayout />}>
               <Route index element={<Landing />} />
