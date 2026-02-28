@@ -7,12 +7,12 @@ const INFO = [
   {
     icon: '📍',
     title: 'Ubicación',
-    content: ['Av. Italia 1245, Piso 1', 'Colonia Centro', 'Ciudad de México, CDMX', '2 cuadras del Metro Bellas Artes'],
+    content: ['Av. Italia 1245, Piso 1', 'Colonia Centro', 'Lima, Peru', '2 cuadras del Metro Bellas Artes'],
   },
   {
     icon: '📞',
     title: 'Contacto',
-    content: ['Tel: +52 (55) 1234-5678', 'WhatsApp: +52 (55) 9876-5432', 'hola@labellataola.mx', 'Respondemos en menos de 1 hora'],
+    content: ['Tel: +51 923456789', 'WhatsApp: +51 923456789', 'hola@labellataola.pe', 'Respondemos en menos de 1 hora'],
   },
 ]
 
